@@ -1,0 +1,148 @@
+/**
+ * Main entry point for CSS rules
+ */
+
+// Custom variables
+$padding: 30px;
+$logo-bg: #323232;
+$navigation-bg: #4A4A4A;
+$primary: #269BE8;
+
+// Bootstrap variables override
+$icon-font-path: "../../node_modules/bootstrap-sass/assets/fonts/bootstrap/";
+$grid-gutter-width: 0;
+$border-radius-base: 0;
+$navbar-margin-bottom: 0;
+$panel-heading-padding: $padding 0;
+$panel-body-padding: 0;
+$panel-footer-padding: 10px $padding;
+$breadcrumb-separator: ">";
+$nav-link-hover-bg: rgba(0, 0, 0, .2);
+$breadcrumb-bg: none;
+$breadcrumb-padding-horizontal: 30px;
+
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import "bootstrap-sass";
+@import "bootstrap-extend";
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+// Left side panel
+aside.panel {
+    background-color: $navigation-bg;
+
+    .panel-heading {
+        background-color: $logo-bg;
+        border: none;
+
+        .logo {
+            max-height: 100%;
+        }
+    }
+
+    .navbar-header {
+        .navbar-toggle {
+            color: #fff;
+        }
+    }
+
+    #navigation {
+        overflow: hidden;
+        transition: height ease-out .2s;
+
+        &.collapsed {
+            height: 0 !important;
+        }
+    }
+
+    .nav-pills {
+        a {
+            color: #fff;
+        }
+
+        .glyphicon {
+            margin-right: 1.5em;
+        }
+
+        .user-image {
+            border: 1px solid $primary;
+            height: 2em;
+            margin-right: .5em;
+        }
+    }
+}
+
+// Main panel
+section.panel {
+    .panel-heading {
+        background-color: $primary;
+
+        .actions {
+            position: absolute;
+            right: 0;
+            padding: 0 $breadcrumb-padding-horizontal;
+
+            select {
+                color: $primary;
+            }
+        }
+    }
+
+    .panel-body {
+        padding: 50px 20px;
+
+        dd {
+            padding-left: 2em;
+        }
+    }
+
+    .panel-footer {
+        .copyright {
+            padding: 10px 0;
+        }
+
+        .copyright, .nav {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        img {
+            width: 100px;
+        }
+
+        .nav li {
+            float: left;
+        }
+    }
+}
+
+// For screen larger than smartphone
+@media (min-width: $screen-sm-min) {
+    .panel {
+        height: 100vh;
+
+        .panel-heading {
+            height: 120px;
+        }
+    }
+
+    aside.panel #navigation {
+        li a {
+            padding: 20px 30px;
+        }
+
+        &.collapsed {
+            height: auto !important;
+        }
+    }
+
+    section.panel {
+        .panel-footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    }
+}

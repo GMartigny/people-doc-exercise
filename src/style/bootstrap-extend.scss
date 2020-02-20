@@ -1,0 +1,31 @@
+/**
+ * Thing I wish bootstrap could allow me configure
+ */
+
+.panel {
+    margin: 0;
+    border: none;
+
+    .panel-heading {
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.breadcrumb {
+    margin: 0;
+
+    a {
+        background-color: #fff;
+    }
+}
+
+.nav-tabs {
+    background-color: $panel-footer-bg;
+
+    & > li.active > a, & > li.active > a:hover {
+        border: none;
+        border-bottom: 3px solid $primary;
+    }
+}
