@@ -31,3 +31,17 @@ Coding exercise for [PeopleDoc](https://www.people-doc.com/) recruitment.
  - BootstrapCSS: CSS framework for easier component creation and page responsiveness.
     - SCSS: CSS preprocessor
  - Now: Quickly and easily deploy online without configuration.
+
+
+## Decision
+
+A few decision that I made concerning the design, these are my personal opinions and are here only because this is an exercise.
+
+ - I used the glyph coming from BootstrapCSS instead of the ones given.
+ This is only because it's easier to work with glyphs than SVG and it save some space.
+ - I avoid putting all link in the left navigation-bar in upper-case and bold for better readability.
+ - I added a solid background to the breadcrumb link for better contrast with the back.
+ - I used native select tag for the drop-down.
+ This greatly increase accessibility and reduce code complexity for the low cost of using the default appearance.
+ - I removed colon at the end of fields titles to declutter a little the page.
+ - I used the same style for all links. In the original design, links were sometimes underscored and sometimes not.
