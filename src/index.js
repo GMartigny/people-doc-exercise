@@ -149,11 +149,11 @@ const html = `
 
     <section class="panel panel-default col-sm-9">
         <header class="panel-heading">
-            <ul class="nav breadcrumb pull-left">
+            <ul class="nav breadcrumb">
                 ${list(breadcrumbs)}
                 <li>${currentEmployee.firstName} ${currentEmployee.lastName}</li>
             </ul>
-            <div class="actions pull-right">
+            <div class="actions">
                 <select class="form-control">
                     ${actions.map(action => `
                         <option>${action.name}</option>
