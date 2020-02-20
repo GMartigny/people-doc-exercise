@@ -1,0 +1,22 @@
+/**
+ * Set variables
+ */
+
+// Custom variables
+$padding: 30px;
+$logo-bg: #323232;
+$navigation-bg: #4A4A4A;
+$primary: #269BE8;
+
+// Bootstrap variables override
+$icon-font-path: "../../node_modules/bootstrap-sass/assets/fonts/bootstrap/";
+$grid-gutter-width: 0;
+$border-radius-base: 0;
+$navbar-margin-bottom: 0;
+$panel-heading-padding: $padding 0;
+$panel-body-padding: 0;
+$panel-footer-padding: 10px $padding;
+$breadcrumb-separator: ">";
+$nav-link-hover-bg: rgba(0, 0, 0, .2);
+$breadcrumb-bg: none;
+$breadcrumb-padding-horizontal: 30px;

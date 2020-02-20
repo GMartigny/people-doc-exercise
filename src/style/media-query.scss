@@ -1,0 +1,45 @@
+/**
+ * Host for media queries
+ */
+
+// For screen larger than smartphone
+@media (min-width: $screen-sm-min) {
+    .panel {
+        height: 100vh;
+
+        .panel-heading {
+            height: 120px;
+            padding: 0 $padding;
+        }
+    }
+
+    aside.panel #navigation {
+        li a {
+            padding: 20px 30px;
+        }
+
+        &.collapsed {
+            height: auto !important;
+        }
+    }
+
+    section.panel {
+        .panel-footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    }
+}
+
+// For screens under 425px
+@media (max-width: 425px) {
+    section.panel .panel-heading {
+        flex-direction: column;
+        height: auto;
+
+        .actions {
+            position: relative;
+        }
+    }
+}

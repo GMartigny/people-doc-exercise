@@ -1,4 +1,4 @@
-import "./style/main.scss";
+import "./style/index.scss";
 import logoOnBlack from "./assets/logo-WoB.svg";
 import logoOnWhite from "./assets/logo-BoW.svg";
 import userImage from "./assets/user.jpg";
