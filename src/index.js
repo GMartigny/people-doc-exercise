@@ -151,7 +151,7 @@ const html = `
         <header class="panel-heading">
             <ul class="nav breadcrumb">
                 ${list(breadcrumbs)}
-                <li>${currentEmployee.firstName} ${currentEmployee.lastName}</li>
+                <li class="active">${currentEmployee.firstName} ${currentEmployee.lastName}</li>
             </ul>
             <div class="actions">
                 <select class="form-control">

@@ -17,6 +17,10 @@
 .breadcrumb {
     margin: 0;
 
+    .active {
+        color: #fff;
+    }
+
     a {
         background-color: #fff;
     }
