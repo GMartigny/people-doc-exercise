@@ -10,8 +10,8 @@ export default class NavigationLink extends ListLink {
             ${this.hasAttribute("icon") ? `<i is="glyph-icon">${this.getAttribute("icon")}</i>` : ""}
             
             ${link.innerHTML}
-            
-            ${this.hasAttribute("todo") ? `<span class="badge pull-right">${this.getAttribute("todo")}</span>` : ""}
+
+            ${this.hasAttribute("todo") ? `<span class="badge badge-red pull-right">${this.getAttribute("todo")}</span>` : ""}
         `;
     }
 }
