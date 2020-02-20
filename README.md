@@ -1,1 +1,0 @@
-# people-doc-exercise
