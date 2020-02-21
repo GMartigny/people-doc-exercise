@@ -130,7 +130,8 @@ const html = `
         <div class="panel-body">
         <nav class="navbar">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation" aria-expanded="false">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation"
+                        aria-expanded="false" aria-label="Menu">
                     <i is="glyph-icon">menu-hamburger</i>
                 </button>
             </div>
@@ -154,7 +155,8 @@ const html = `
                 <li class="active">${currentEmployee.firstName} ${currentEmployee.lastName}</li>
             </ul>
             <div class="actions">
-                <select class="form-control">
+                <label for="action-dropdown" class="sr-only">Action</label>
+                <select class="form-control" id="action-dropdown">
                     ${actions.map(action => `
                         <option>${action.name}</option>
                     `).join("\n")}
