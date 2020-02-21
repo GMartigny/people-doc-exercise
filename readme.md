@@ -30,6 +30,9 @@ Coding exercise for [PeopleDoc](https://www.people-doc.com/) recruitment.
     - mini-css-extract-plugin: create a separate file for all the CSS.
  - BootstrapCSS: CSS framework for easier component creation and page responsiveness.
     - SCSS: CSS preprocessor
+    - PostCSS: CSS postprocessor
+        - autoprefixer: Add browser specific prefixes when needed
+        - purgeCSS: Remove unused CSS properties
  - Now: Quickly and easily deploy online without configuration.
 
 
