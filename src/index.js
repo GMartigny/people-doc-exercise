@@ -123,7 +123,7 @@ const siteMap = [
 const html = `
 <div class="row">
 
-    <aside class="panel panel-default col-sm-3">
+    <aside class="panel panel-default col-sm-3 col-lg-2">
         <a class="panel-heading" href="#">
             <img src="${logoOnBlack}" alt="Logo" class="logo img-responsive center-block" />
         </a>
@@ -147,7 +147,7 @@ const html = `
         </div>
     </aside>
 
-    <section class="panel panel-default col-sm-9">
+    <section class="panel panel-default col-sm-9 col-lg-10">
         <header class="panel-heading">
             <ul class="nav breadcrumb">
                 ${list(breadcrumbs)}
@@ -157,7 +157,7 @@ const html = `
                 <select class="form-control">
                     ${actions.map(action => `
                         <option>${action.name}</option>
-                    `)}
+                    `).join("\n")}
                 </select>
             </div>
         </header>
