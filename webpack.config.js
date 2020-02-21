@@ -12,6 +12,16 @@ module.exports = (env, options) => {
         },
         module: {
             rules: [
+                {
+                    test: /\.m?js$/,
+                    exclude: /node_modules/,
+                    use: {
+                        loader: "babel-loader",
+                        options: {
+                            presets: ["@babel/preset-env"],
+                        },
+                    },
+                },
                 { // SASS
                     test: /\.s?[ac]ss$/,
                     use: [

@@ -26,6 +26,7 @@ Coding exercise for [PeopleDoc](https://www.people-doc.com/) recruitment.
 ## Tooling
 
  - Webpack: Build and bundle all sources.
+    - Babel: Transpile Javascript to a more compatible version using browser usage.
     - html-webpack-plugin: create a HTML file and inject build source into it.
     - mini-css-extract-plugin: create a separate file for all the CSS.
  - BootstrapCSS: CSS framework for easier component creation and page responsiveness.

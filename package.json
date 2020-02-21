@@ -21,9 +21,12 @@
     },
     "homepage": "https://github.com/GMartigny/people-doc-exercise#readme",
     "devDependencies": {
+        "@babel/core": "^7.8.4",
+        "@babel/preset-env": "^7.8.4",
         "@fullhuman/postcss-purgecss": "^2.0.6",
         "@gmartigny/eslint-config": "^1.4.2",
         "autoprefixer": "^9.7.4",
+        "babel-loader": "^8.0.6",
         "css-loader": "^3.4.2",
         "eslint": "^6.8.0",
         "file-loader": "^5.1.0",
