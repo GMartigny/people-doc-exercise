@@ -58,8 +58,7 @@ section.panel {
 
         .actions {
             position: absolute;
-            right: 0;
-            padding: 0 $breadcrumb-padding-horizontal;
+            right: $padding;
 
             select {
                 color: $secondary-color;
