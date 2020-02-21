@@ -150,10 +150,10 @@ document.body.innerHTML = `
 
     <section class="panel panel-default col-sm-9 col-lg-10">
         <header class="panel-heading">
-            <ul class="nav breadcrumb">
+            <ol class="nav breadcrumb">
                 ${list(breadcrumbs)}
                 <li class="active">${currentEmployee.firstName} ${currentEmployee.lastName}</li>
-            </ul>
+            </ol>
             <div class="actions">
                 <label for="action-dropdown" class="sr-only">Action</label>
                 <select class="form-control" id="action-dropdown">
