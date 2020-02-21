@@ -70,6 +70,10 @@ section.panel {
     .panel-body {
         padding: 50px 20px;
 
+        dt {
+            margin-bottom: .5em;
+        }
+
         dd {
             padding-left: 2em;
         }
