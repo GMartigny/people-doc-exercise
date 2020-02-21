@@ -120,7 +120,7 @@ const siteMap = [
     },
 ];
 
-const html = `
+document.body.innerHTML = `
 <div class="row">
 
     <aside class="panel panel-default col-sm-3 col-lg-2">
@@ -189,8 +189,6 @@ const html = `
 
 </div>
 `;
-
-document.body.innerHTML = html;
 
 // Enable menu collapse without JQuery
 {
