@@ -192,6 +192,7 @@ const html = `
 
 document.body.innerHTML = html;
 
+// Enable menu collapse without JQuery
 {
     const navToggle = document.querySelector(".navbar-toggle");
     const target = document.querySelector(navToggle.dataset.target);
@@ -206,3 +207,8 @@ document.body.innerHTML = html;
         target.classList.toggle(collapsedClassName);
     });
 }
+
+// Placeholder for dropdown change listener
+document.querySelector("#action-dropdown").addEventListener("change", ({ target }) => {
+    console.log(target.value);
+});
