@@ -44,7 +44,7 @@ aside.panel {
         }
 
         .user-image {
-            border: 1px solid $primary;
+            border: 1px solid $primary-color;
             height: 2em;
             margin-right: .5em;
         }
@@ -54,7 +54,7 @@ aside.panel {
 // Main panel
 section.panel {
     .panel-heading {
-        background-color: $primary;
+        background-color: $primary-color;
 
         .actions {
             position: absolute;
@@ -62,7 +62,8 @@ section.panel {
             padding: 0 $breadcrumb-padding-horizontal;
 
             select {
-                color: $primary;
+                color: $secondary-color;
+                border-color: $secondary-color;
             }
         }
     }
