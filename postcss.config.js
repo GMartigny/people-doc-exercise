@@ -11,6 +11,9 @@ if (process.env.NODE_ENV === "production") {
             "./src/**/*.js",
             "./src/**/*.html",
         ],
+        whitelistPatterns: [
+            /^glyphicon-/,
+        ],
     }));
 }
 
