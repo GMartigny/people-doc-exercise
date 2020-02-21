@@ -43,3 +43,17 @@
         }
     }
 }
+
+@media (max-width: 590px) {
+    section.panel .panel-footer {
+        text-align: center;
+
+        .copyright {
+            display: block;
+        }
+
+        .sitemap {
+            float: none;
+        }
+    }
+}

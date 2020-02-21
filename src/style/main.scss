@@ -79,6 +79,12 @@ section.panel {
     .panel-footer {
         .copyright {
             padding: 10px 0;
+            font-size: .75em;
+            line-height: 19px;
+        }
+
+        .sitemap {
+            float: right;
         }
 
         .copyright, .nav {

@@ -176,7 +176,7 @@ const html = `
             <span class="copyright">
                 @ 2020 PeopleDoc Inc. All Rights Reserved
             </span>
-            <div class="pull-right">
+            <div class="sitemap">
                 <ul class="nav">
                      ${list(siteMap)}
                 </ul>
