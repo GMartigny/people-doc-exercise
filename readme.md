@@ -2,6 +2,8 @@
 
 Coding exercise for [PeopleDoc](https://www.people-doc.com/) recruitment.
 
+| ![Expected](./media/html-css-technical-exercise.png) | ![Result](./media/result.png) |
+| --- | --- |
 
 ## Thinking process
 
