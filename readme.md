@@ -53,3 +53,14 @@ A few decision that I made concerning the design, these are my personal opinions
  This greatly increase accessibility and reduce code complexity for the low cost of using the default appearance.
  - I removed colon at the end of fields titles to declutter a little the page.
  - I used the same style for all links. In the original design, links were sometimes underscored and sometimes not.
+
+
+## Shortcomings
+
+ - Even for a solo exercise, I could have used a commit message convention like [Conventional Commits](https://www.conventionalcommits.org/).
+ It would have made the commit history clearer.
+ - BootstrapCSS is great for ... well ... bootstrapping a project. But in the long run, this is not a good solution.
+ - Adding Babel to support more browsers (namely IE11) to the build pipeline double the bundle size (from 5Ko to 10Ko).
+ This could be improved by dropping support for older browser or with some differential serving.
+ - Doing the HTML construction in a Javascript file is not perfect, but allow for less redundancy in the code.
+ Using any Javascript front-end framework (Vue, React, Ember) would improve readability with real data injection.
