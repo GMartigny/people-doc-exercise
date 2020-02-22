@@ -4,7 +4,6 @@ import logoOnWhite from "./assets/logo-BoW.svg";
 import userImage from "./assets/user.jpg";
 import "./components/list-link";
 import "./components/navigation-link";
-import "./components/glyph-icon";
 
 const list = (array, element = "list-link") => {
     const listItem = ({ url = "#", name, ...fields }) => {
@@ -121,9 +120,9 @@ const siteMap = [
 ];
 
 document.body.innerHTML = `
-<div class="row">
+<div>
 
-    <aside class="panel panel-default col-sm-3 col-lg-2">
+    <aside class="panel col-sm-3 col-lg-2">
         <a class="panel-heading" href="#">
             <img src="${logoOnBlack}" alt="Logo" class="logo img-responsive center-block" />
         </a>
@@ -148,7 +147,7 @@ document.body.innerHTML = `
         </div>
     </aside>
 
-    <section class="panel panel-default col-sm-9 col-lg-10">
+    <section class="panel col-sm-9 col-lg-10">
         <header class="panel-heading">
             <ol class="nav breadcrumb">
                 ${list(breadcrumbs)}
