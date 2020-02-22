@@ -4,8 +4,12 @@
 
 // For screen larger than smartphone
 @media (min-width: $screen-sm-min) {
+    .wrapper {
+        display: flex;
+    }
+
     .panel {
-        height: 100vh;
+        min-height: 100vh;
 
         .panel-heading {
             height: 120px;
@@ -32,7 +36,7 @@
     }
 }
 
-// For screens under 425px
+// Fix overflow on the breadcrumb top-bar
 @media (max-width: 425px) {
     section.panel .panel-heading {
         flex-direction: column;
@@ -44,6 +48,7 @@
     }
 }
 
+// Fix overflow on the footer
 @media (max-width: 590px) {
     section.panel .panel-footer {
         text-align: center;
