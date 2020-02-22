@@ -37,6 +37,7 @@ Coding exercise for [PeopleDoc](https://www.people-doc.com/) recruitment.
         - autoprefixer: Add browser specific prefixes when needed
         - purgeCSS: Remove unused CSS properties
  - Now: Quickly and easily deploy online without configuration.
+ - LightHouse: Check "performance", "accessibility" and "best practices" of a page.
 
 
 ## Decision
