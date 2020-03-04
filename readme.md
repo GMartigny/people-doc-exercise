@@ -64,3 +64,10 @@ A few decision that I made concerning the design, these are my personal opinions
  This could be improved by dropping support for older browser or with some differential serving.
  - Doing the HTML construction in a Javascript file is not perfect, but allow for less redundancy in the code.
  Using any Javascript front-end framework (Vue, React, Ember) would improve readability with real data injection.
+
+
+## Answer
+
+> Following the review of your exercise, we unfortunately do not continue with you for the position of UI developer.
+> Indeed, you have made the choice used Bootstrap VS HTML and CSS or these are the skills we are looking for this position.
+> You decided to use Glyph rather than SVG, or we are looking for someone who is comfortable with SVG because it is a very efficient and accessible way to work with iconography.
